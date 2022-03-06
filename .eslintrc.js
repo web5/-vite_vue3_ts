@@ -94,6 +94,7 @@ module.exports = {
     camelcase: "warn",
     // 强制使用一致的缩进
     indent: "off",
+    // quotes: [1, 'single'], //引号类型 `` "" ''
     // 强制在 JSX 属性中一致地使用双引号或单引号
     // 'jsx-quotes': 'warn',
     // 强制可嵌套的块的最大深度4
@@ -137,7 +138,6 @@ module.exports = {
     "switch-colon-spacing": "warn",
     // 强制箭头函数的箭头前后使用一致的空格
     "arrow-spacing": "warn",
-    "no-var": "warn",
     "prefer-const": "warn",
     "prefer-rest-params": "warn",
     "no-useless-escape": "warn",
