@@ -8,6 +8,7 @@ const count = ref(0);
 function getValue(obj, key) {
   const temp;
   console.log("temp>>>", JSON.stringify(temp));
+
   return obj[key];
 }
 </script>
