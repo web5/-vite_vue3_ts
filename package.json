@@ -17,6 +17,7 @@
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "@vitejs/plugin-vue": "^2.2.0",
+    "dart-sass": "^1.25.0",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -25,6 +26,8 @@
     "lint-staged": ">=10",
     "mrm": "^3.0.10",
     "prettier": "^2.5.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
     "typescript": "^4.5.4",
     "vite": "^2.8.0",
     "vue-tsc": "^0.29.8"

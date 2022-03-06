@@ -6,8 +6,9 @@ defineProps<{ msg: string }>();
 const count = ref(0);
 
 function getValue(obj, key) {
-  const temp;
-  console.log("temp>>>", JSON.stringify(temp));
+  // const temp;
+  // console.log("temp>>>", JSON.stringify(temp));
+  // console.log("temp>>>", unvalue);
 
   return obj[key];
 }
@@ -40,7 +41,10 @@ function getValue(obj, key) {
   </p>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.test {
+  color: $test-color;
+}
 a {
   color: #42b983;
 }
