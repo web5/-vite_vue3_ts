@@ -6,6 +6,7 @@ defineProps<{ msg: string }>();
 const count = ref(0);
 
 function getValue(obj, key) {
+  const temp;
   return obj[key];
 }
 </script>
