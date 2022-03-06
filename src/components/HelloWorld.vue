@@ -4,6 +4,10 @@ import { ref } from "vue";
 defineProps<{ msg: string }>();
 
 const count = ref(0);
+
+function getValue(obj, key) {
+  return obj[key];
+}
 </script>
 
 <template>
